@@ -7,6 +7,7 @@ This project retrieves, processes, and displays the list of Instagram APKs avail
 1. **Run Data Sender:**
 
     ```bash
+    npm install
     cd instagram-scraper
     node data_sender.js
     ```
@@ -14,6 +15,7 @@ This project retrieves, processes, and displays the list of Instagram APKs avail
 2. **Run Server:**
 
     ```bash
+    npm install
     cd server
     node server.js
     ```
@@ -21,6 +23,7 @@ This project retrieves, processes, and displays the list of Instagram APKs avail
 3. **Start APK Mirror:**
 
     ```bash
+    npm install
     cd apk-mirror
     npm start
     ```
