@@ -1,0 +1,142 @@
+/* styles.css */
+.App {
+    text-align: center;
+}
+.App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+}
+main {
+    margin: 20px;
+}
+footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.table-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+   /* Adjust the color as needed */
+}
+.data-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+/* Center the content in the 2nd and 3rd columns */
+.data-table td:nth-child(2), .data-table td:nth-child(3) {
+    text-align: center;
+}
+/* Add styles for header */
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+/* Add styles for footer */
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+/* Add styles for h1 above the table */
+.table-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.centered-header {
+    text-align: center;
+}
+.edit-btn {
+    background-color: #4caf50;
+    color: white;
+    margin-right: 10px;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+   }
+    .input-group {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .column {
+            flex: 1;
+            margin-right: 20px;
+            label {
+                display: block;
+                margin-bottom: 10px;
+           }
+            input {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+           }
+       }
+   }
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+   }
+    .button-group button {
+        flex: 1;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+   }
+    .button-group .apply-btn {
+        background-color: #4caf50;
+        color: white;
+        margin-right: 10px;
+   }
+    .button-group .cancel-btn {
+        background-color: #f44336;
+        color: white;
+   }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

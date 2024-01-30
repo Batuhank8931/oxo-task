@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  instagram-scraper:
+    build:
+      context: .
+      dockerfile: ./instagram-scraper/Dockerfile
+    ports:
+      - "8080:8080"
+
+  server:
+    build:
+      context: .
+      dockerfile: ./server/Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongodb
+
+  apk-mirror:
+    build:
+      context: .
+      dockerfile: ./apk-mirror/Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
