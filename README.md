@@ -28,7 +28,7 @@ This project retrieves, processes, and displays the list of Instagram APKs avail
     npm start
     ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view the page.
+Visit http://localhost:3000 to view the page.
 
 ## Docker Setup
 
